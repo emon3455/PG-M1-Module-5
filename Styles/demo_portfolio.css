@@ -201,3 +201,46 @@ main{
     text-align: center;
 }
 /* resume style end */
+
+
+/* contact style start */
+
+.contact{
+    display: flex;
+    gap: 110px;
+    background-color: #FFF8F3;
+    padding: 100px 20px 20px 20px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+
+
+.contact input[type="text"], input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: none;
+    padding-left: 20px;
+    width: 440px;
+    height: 44px;
+}
+
+.contact textarea{
+    height: 80px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact .section-title{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.contact-description{
+    margin: 10px 0;
+}
+
+
+/* contact style end */
