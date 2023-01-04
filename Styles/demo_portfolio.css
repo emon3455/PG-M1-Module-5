@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* common code */
+
+.primary-clr {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+    padding: 18px 35px;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+
+}
+
+/* common code */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png) , url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right , center left;
+    background-size: 800px, 75px;
+}
+/* Header and navigation style start */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+/* Header and navigation style end */
+
+
+/* banner start */
+
+.banner{
+    margin: 0 80px 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-sub-title{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 61px;
+    margin-bottom: 5px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.banner-descreption{
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.hero{
+    padding-top: 3px;
+}
+
+/* banner end */
