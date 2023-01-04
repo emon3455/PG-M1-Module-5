@@ -29,6 +29,25 @@
     background-position: bottom right , center left;
     background-size: 800px, 75px;
 }
+
+.section-header{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-bottom: 35px;
+}
+
+.section-description{
+
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 40px;
+}
+
+
 /* Header and navigation style start */
 
 nav {
@@ -65,14 +84,13 @@ nav li {
 
 .banner-sub-title{
     font-weight: 500;
-    font-size: 25px;
-    line-height: 61px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
 .banner-title{
     font-weight: 700;
-    font-size: 55px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
@@ -102,19 +120,6 @@ main{
     text-align: center;
 }
 
-.section-header{
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 15px;
-}
-
-.section-description{
-
-    font-weight: 400;
-    font-size: 18px;
-    color: #757575;
-    margin-bottom: 30px;
-}
 
 .about-info-container{
     display: flex;
@@ -134,3 +139,40 @@ main{
 }
 
 /* about section style end */
+
+
+/* what i do section start */
+
+.what-i-do{
+    margin-top: 130px;
+}
+
+.skill{
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 30px 60px 0 30px;
+}
+
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    padding: 30px;
+}
+
+.skill-img{
+    padding: 30px 193px 0px 30px;
+}
+
+
+/* what i do section end */
