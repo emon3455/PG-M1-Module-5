@@ -21,6 +21,16 @@
 
 }
 
+.btn-secondary{
+    background-color: white;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
 .header{
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png) , url(../images/developer.png);
