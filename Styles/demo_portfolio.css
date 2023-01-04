@@ -84,5 +84,53 @@ nav li {
 .hero{
     padding-top: 3px;
 }
-
 /* banner end */
+
+
+/* about section style start */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    margin-top: 130px;
+    background-color:  #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-header{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.section-description{
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about .info-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.about .info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* about section style end */
